@@ -8,9 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div>
     <h1>bienvenue aux grands jeux Mystery Number</h1>
-    <p>le but et trés simple vous avais 3 tentative pour découvrire le nombre mystére entre 1/10</p>
+    <p>le but et trés simple découvrire le nombre mystére entre 1/10</p>
 
-    <button onclick="MysteryNumber()">jouer</button>
+    <input type="nombre" id="guess" min="1" max="10" placeholder="1 à 10" required>   
+    
+    <button id="submit">Soumettre</button>
+    <p id="message"></p>
+    <p id="attempts"></p>
+</div>
+
 </body>
 </html>
