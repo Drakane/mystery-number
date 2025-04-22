@@ -19,7 +19,7 @@ replay.addEventListener("click", resetGame);
 function setDifficulty(maxAttempts, maxNumber) {
     p = maxAttempts;
     randomNum = Math.floor(Math.random() * maxNumber + 1);
-    attempts = 0; // Réinitialise les tentatives
+    attempts = 0; 
     message.textContent = `Difficulté définie. Vous avez ${p} tentative(s) pour deviner un nombre entre 1 et ${maxNumber}.`;
     guess.disabled = false;
     submit.style.display = "inline-block";
