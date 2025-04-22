@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mystery number</title>
-    <script src="index.js"></script>
+    <title>Jeu du Nombre Mystère</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-    <h1>bienvenue aux grands jeux Mystery Number</h1>
-    <p>le but et trés simple découvrire le nombre mystére entre 1/10</p>
-
-    <input type="nombre" id="guess" min="1" max="10" placeholder="1 à 10" required>   
-    
-    <button id="submit">Soumettre</button>
-    <p id="message"></p>
-    <p id="attempts"></p>
-</div>
-
+    <h1>    bienvenu au jeux du nombre mystére tenter votre chance !!</h1>
+    <div>
+        <button id="facile">Facile</button>
+        <button id="moyen">Moyen</button>
+        <button id="difficile">Difficile</button>
+    </div>
+    <input type="number" id="guess" disabled>
+    <button id="submit" style="display: none;">Valider</button>
+    <button id="rejouer" style="display: none;">Rejouer</button>
+    <p id="message">Choisissez une difficulté pour commencer.</p>
+    <script src="index.js"></script>
 </body>
 </html>
