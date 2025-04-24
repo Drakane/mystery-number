@@ -1,6 +1,6 @@
 let attempts = 0;
 let randomNum = 0;
-let p = 0; // Nombre maximum d'essais
+let p = 0; 
 const guess = document.getElementById("guess");
 const submit = document.getElementById("submit");
 const replay = document.getElementById("rejouer");
